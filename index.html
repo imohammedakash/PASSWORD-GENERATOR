@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANDOM PASSWORD GENERATOR</title>
+    <script src="https://kit.fontawesome.com/8e8487a383.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>PASSWORD GENERATOR</h2>
+        <div class="diplay-bar">
+            <input type="text" readonly value="s2dy$dfy#^%er">
+            <span class="maaterial-copy"><i class="fa-sharp fa-solid fa-copy"></i></span>
+        </div>
+        <div class="password-indicator"></div>
+        <div class="length-indicator">
+            <div class="length">
+                <label for="">length</label>
+                <span></span>
+            </div>
+            <input type="range" min="1" max="30" step="1" value="15" />
+        </div>
+        <div class="password-settings">
+                <label for="">Password Settings</label>
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="LowerCase" checked>
+                        <label for="LowerCase">LowerCase(a-z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="UpperCase">
+                        <label for="UpperCase" >UpperCase(A-Z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="symbols">
+                        <label for="symbols">Symbols(&+*-)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Numbers(0-9)</label>
+                    </li>
+
+                </ul>
+            <button class="Generate">Generate</button>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
